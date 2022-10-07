@@ -1,0 +1,28 @@
+Some basic definition :-
+Data :- Data is an unprocessed information, raw facts and figure.
+
+Information:-
+Meaningful data is known as information.
+
+Database:-
+The collection of Inter related data.
+
+DBMS :-
+Database Management System (DBMS) is a software for storing and retrieving users’ data while considering appropriate security measures.
+It consists of a group of programs which manipulate the database. 
+
+The DBMS accepts the request for data from an application and instructs the operating system to provide the specific data.
+In large systems, a DBMS helps users and other third-party software to store and retrieve data.
+
+DBMS allows users to create their own databases as per their requirement.
+The term “DBMS” includes the user of the database and other application programs. It provides an interface between the data and the software application.
+
+Database technologies :-
+For manipulating data we use many technologies.
+
+Some database technologies.
+1) ORACLE
+2) Sql
+3)MONGODB
+4)MS SQL SERVER
+etc.

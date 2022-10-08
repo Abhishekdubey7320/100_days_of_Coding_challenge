@@ -1,0 +1,33 @@
+DBMS (Data Base Management System)
+Database management System is software which is used to store and retrieve the database. For example, Oracle, MySQL, etc.; these are some popular DBMS tools.
+
+DBMS provides the interface to perform the various operations like creation, deletion, modification, etc.
+DBMS allows the user to create their databases as per their requirement.
+DBMS accepts the request from the application and provides specific data through the operating system.
+DBMS contains the group of programs which acts according to the user instruction.
+It provides security to the database.
+
+Advantage of DBMS
+Controls redundancy
+It stores all the data in a single database file, so it can control data redundancy.
+
+Data sharing
+An authorized user can share the data among multiple users.
+
+Backup
+It providesBackup and recovery subsystem. This recovery system creates automatic data from system failure and restores data if required.
+
+Multiple user interfaces
+It provides a different type of user interfaces like GUI, application interfaces.
+
+Disadvantage of DBMS
+Size
+It occupies large disk space and large memory to run efficiently.
+
+Cost
+DBMS requires a high-speed data processor and larger memory to run DBMS software, so it is costly.
+
+Complexity
+DBMS creates additional complexity and requirements.
+
+Next we will discuss about relational database management system

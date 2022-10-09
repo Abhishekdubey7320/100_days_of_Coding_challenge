@@ -1,0 +1,21 @@
+What is RDBMS (Relational Database Management System)
+
+RDBMS stands for Relational Database Management System.
+
+All modern database management systems like SQL, MS SQL Server, IBM DB2, ORACLE, My-SQL, and Microsoft Access are based on RDBMS.
+
+It is called Relational Database Management System (RDBMS) because it is based on the relational model introduced by E.F. Codd.
+
+
+How it works
+Data is represented in terms of tuples (rows) in RDBMS.
+
+A relational database is the most commonly used database. It contains several tables, and each table has its primary key.
+
+Due to a collection of an organized set of tables, data can be accessed easily in RDBMS.
+
+Brief History of RDBMS
+From 1970 to 1972, E.F. Codd published a paper to propose using a relational database model.
+
+RDBMS is originally based on E.F. Codd's relational model invention.
+

@@ -1,0 +1,29 @@
+Topic:- do-while loops
+Java do-while loops are very similar to the while loops, but it always executes the code block at least once and furthermore as long as the condition remains true.
+This loop is an exit-controlled loop.
+
+syntax :-
+do
+  {
+      statement(s);
+
+   }while( condition );
+   
+Question :-Write a program to calculate HCF of Two given number take as the input from the number.
+
+conditions :- do
+          {
+          remainder = dividend % divisor
+             if(remainder==0)
+                {
+                divisor=hcf;
+                }
+                else{
+                dividend=divisor;
+                divisor=remainder;
+                } 
+                }while(remainder != 0);
+
+Input : first number (dividend)= 55
+        second number(divisor)= 15
+output : HCF: 5

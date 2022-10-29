@@ -1,0 +1,29 @@
+Topic :- do-while loops
+
+Java do-while loops are very similar to the while loops, but it always executes the code block at least once and furthermore as long as the condition remains true.
+This loop is an exit-controlled loop.
+      
+      syntax :-
+do
+  {
+      statement(s);
+
+   }while( condition );
+   
+Problem :- Write a program to enter the numbers till the user wants and at the end it should display the count of positive, negative and zeros entered. 
+
+    sample input :- Enter any number
+                     17
+                    Enter your choice y or n
+                     Y
+                    Enter any number
+                    -28
+                    Enter your choice y or n
+                     Y
+                    Enter any number
+                     0
+                    Enter your choice y or n
+                    N
+   sample output :- Positive numbers: 1
+                    Negative numbers: 1
+                    Zero numbers: 1

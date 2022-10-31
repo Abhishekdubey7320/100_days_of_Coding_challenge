@@ -1,0 +1,52 @@
+Topic :- Array
+Java array is an object which contains elements of a similar data type. Additionally, The elements of an array are stored in a contiguous memory location.
+It is a data structure where we store similar elements. We can store only a fixed set of elements in a Java array.
+
+To declare an array, define the variable type with square brackets:
+Syntax:-
+
+         dataType[] arrayRefVar;   // preferred way.
+         or
+         dataType arrayRefVar[];  // works but not preferred way.
+         
+Example
+The following code snippets are examples of this syntax −
+
+double[] myList;   // preferred way.
+or
+double myList[];   // works but not preferred way.
+
+Problem :- Take 10 integer inputs from user and store them in an array. Now, copy all the elements in an another array but in reverse order.
+
+sample input:-  
+Enter the value of a[0]
+ 15
+Enter the value of a[1]
+17
+Enter the value of a[2]
+18
+Enter the value of a[3]
+20
+Enter the value of a[4]
+45
+Enter the value of a[5]
+34
+Enter the value of a[6]
+54
+Enter the value of a[7]
+43
+Enter the value of a[8]
+32
+Enter the value of a[9]
+44
+Sample output :-
+The value of b[0] is 44
+The value of b[1] is 32
+The value of b[2] is 43
+The value of b[3] is 54
+The value of b[4] is 34
+The value of b[5] is 45
+The value of b[6] is 20
+The value of b[7] is 18
+The value of b[8] is 17
+The value of b[9] is 15

@@ -1,0 +1,40 @@
+Topic :- Array
+Java array is an object which contains elements of a similar data type. Additionally, The elements of an array are stored in a contiguous memory location.
+It is a data structure where we store similar elements. We can store only a fixed set of elements in a Java array.
+
+To declare an array, define the variable type with square brackets:
+Syntax:-
+
+         dataType[] arrayRefVar;   // preferred way.
+   
+Program:- Write a program in array  to print all the array elements ,sum of the elments and also find the largest element in the array.
+
+sample input:-1.9
+              2.9
+              3.4
+              3.5
+sample output :- 1.9 
+                 2.9 
+                 3.4 
+                 3.5 
+            Total is 11.7
+             Max is 3.5
+             
+Explainantion:- In this program first we  print all the elements which is present in the array of length 4. we use for loop for the printing all elements.
+Example:-        for (int i = 0; i < myList.length; i++) {
+                System.out.println(myList[i] + " ");
+            }
+            Now, for sum of the  elements we take  datatype double Total=0; and again with the help of for loop, we add the all elements and stored in Total and then print total.
+Example:-       double total = 0;
+            for (int i = 0; i < myList.length; i++) {
+                total += myList[i];
+            }
+      And in last we have to find the largest elements so we take max of datatype double is equal to the array of index [0] and simply with the help of for loop 
+      increment the loop and print the largest element.
+Example:-  double max = myList[0];
+            for (int i = 1; i < myList.length; i++) {
+                if (myList[i] > max) max = myList[i];
+            }
+      
+      
+

@@ -1,0 +1,29 @@
+Two Dimensional Array in Java
+
+The Two Dimensional Array in Java programming language is nothing but an Array of Arrays.
+In Java Two Dimensional Array, data stored in row and columns, and we can access the record using both the row index and column index . 
+To work with multi-level data, we have to use the Multi-Dimensional Array. Two Dimensional Array in Java is the simplest form of Multi-Dimensional Array.
+
+Declaration:- Data_Type[][] Array_Name;
+
+Program:-  Java Program to Add Two Matrices By Static Initialization of Array Elements
+A 3*3 Matrix is having 3 rows and 3 columns where this 3*3 represents the dimension of the matrix. Means there are 3*3 i.e. total 9 elements in a 3*3 Matrix.
+
+Let’s understand it in more simpler way.
+
+                   | A00   A01   A02 |
+Matrix A =  | A10   A11   A12 |
+                   | A20   A21   A22 | 3*3
+Matrix A represents a 3*3 matrix.
+‘A‘ represents the matrix element
+‘Aij‘ represents the matrix element at it’s matrix position/index.
+‘i‘ represents the row index
+‘j‘ represents the column index
+Means A00=Aij  where i=0 and j=0,  A01=aij where i=0 and j=1 and like this.
+Here we have started row value from 0 and column value from 0.
+
+Approach:- 
+
+Initialize and declare two arrays of size 3×3 with elements.
+Use two for loops to iterate the rows and columns and then add the elements present at the same index of both matrices, then store them in another array of same size.
+Print the resultant array.

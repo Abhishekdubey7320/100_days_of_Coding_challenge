@@ -27,3 +27,30 @@ Approach:-
 Initialize and declare two arrays of size 3×3 with elements.
 Use two for loops to iterate the rows and columns and then add the elements present at the same index of both matrices, then store them in another array of same size.
 Print the resultant array.
+
+Sample input:-
+19 25 32 
+40 54 62 
+70 20 60 
+
+50 15 10 
+98 45 78 
+23 73 50 
+
+Sample output:-
+Matrix 1 : 
+19 25 32 
+40 54 62 
+70 20 60 
+
+Matrix 2 :
+50 15 10 
+98 45 78 
+23 73 50 
+
+After sum of both the matrix : 
+69 40 42 
+138 99 140 
+93 93 110 
+
+

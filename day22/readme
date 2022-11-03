@@ -1,0 +1,42 @@
+Topic: - Array
+
+Java array is an object which contains elements of a similar data type.
+To declare an array, define the variable type with square brackets.
+
+Syntax: -
+dataType[] arrayRefVar; // preferred way
+
+Program:- Find largest and smallest elements of an array.
+sample input:- 
+Enter the elements[0]
+76
+Enter the elements[1]
+87
+Enter the elements[2]
+09
+Enter the elements[3]
+89
+Enter the elements[4]
+56
+Enter the elements[5]
+76
+Enter the elements[6]
+34
+Enter the elements[7]
+12
+Enter the elements[8]
+43
+Enter the elements[9]
+24
+
+Sample output:- Largest is 89 and smallest is 9
+
+Testcase1:- if take decimal number from the user as an input
+ input: 34.4
+ output:-
+Exception in thread "main" java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at company.com.Find_LargeAndSmall_Element.main(Find_LargeAndSmall_Element.java:11)

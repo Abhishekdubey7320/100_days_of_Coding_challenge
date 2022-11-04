@@ -1,0 +1,32 @@
+Topic:- Sorting an array
+The sorting is a way to arrange elements of a list or array in a certain order. The order may be in ascending or descending order. 
+
+problem:-Sort an Array in Alphabetical Order
+
+Algorithm:-
+1) Start
+2) Declare an Array
+3) Initialize the Array
+4) Use two for loops to sort the array in alphabetical order.
+5) Use the first for loop to hold the elements.
+6) Use the second for loop to compare with the remaining elements.
+7) Use the compareTo() to compare.
+8) Swap the array elements.
+9) Print the updated array.
+10) Stop
+sample input:-
+Enter the number of elements 
+5
+Enter the String 
+Apple
+orange 
+banana
+papaya
+carrot
+
+sample output:-
+Apple, banana, carrot, orange , papaya // sort in ascending form
+
+Testcase:- In this program if we take  datatype String from user in lowercase or uppercase.
+
+output:-  Apple, banana, carrot, orange , papaya //same output

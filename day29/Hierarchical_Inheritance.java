@@ -19,7 +19,7 @@ We are writing the program where class B, C and D extends class A.
 when a class has more than one child classes (sub classes) or in other words more than one child classes have
 the same parent class then this type of inheritance is known as hierarchical inheritance.
 
-Program: -Java program to illustrate the concept of Multilevel inheritance.
+Program: -Java program to illustrate the concept of Hierarchical  inheritance.
 Sample output: - method of Class A
                  method of Class A
                  method of Class A

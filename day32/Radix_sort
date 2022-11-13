@@ -1,0 +1,90 @@
+/* Topic: - Radix sort
+Radix sort is a sorting algorithm that sorts the elements by first grouping the individual digits of the same place value. 
+Then, sort the elements according to their increasing/decreasing order.
+
+Program:Java program to sort an element in ascending order.
+sample input:- 121, 432, 564, 23, 1, 45, 788
+sample output:-1, 23, 45, 121, 432, 564, 788
+
+Explanation:-
+In radix sort, every element is sorted based on its digit, wherein the least significant digit in every element is sorted first, and 
+the most significant digit is sorted in the end. It uses counting sort as a sub-function to perform its sorting functions.
+
+Given an array of elements, the first step is that the elements are sorted based on the least significant place’s digit, i.e ones place. 
+Next the elements in the array are sorted based on tens place digits. Then, the elements are sorted based on hundreds place digit and so on. 
+This is done with the help of ‘get_max_val’ function. In the main function, the array is defined, and the array is passed as a parameter to the ‘radix_sort’ function.
+
+Radix Sort Complexity
+    Time Complexity
+    Best	O(n+k)
+    Worst	O(n+k)
+    Average	O(n+k)
+    Space Complexity	O(max)
+    Stability	Yes
+    Since radix sort is a non-comparative algorithm, it has advantages over comparative sorting algorithms.
+
+    For the radix sort that uses counting sort as an intermediate stable sort, the time complexity is O(d(n+k)).
+
+Code:- */
+
+package company.com;
+
+import java.util.Arrays;
+public class Radix_sort {
+
+    // Radix Sort in Java Programming
+    
+           // Using counting sort to sort the elements in the basis of significant places
+        void countingSort(int array[], int size, int place) {
+            int[] output = new int[size + 1];
+            int max = array[0];
+            for (int i = 1; i < size; i++) {
+                if (array[i] > max)
+                    max = array[i];
+            }
+            int[] count = new int[max + 1];
+            for (int i = 0; i < max; ++i)
+                count[i] = 0;
+
+            // Calculate count of elements
+            for (int i = 0; i < size; i++)
+                count[(array[i] / place) % 10]++;
+
+            for (int i = 1; i < 10; i++)         // Calculate cumulative count
+                count[i] += count[i - 1];
+
+            for (int i = size - 1; i >= 0; i--) {      // Place the elements in sorted order
+                output[count[(array[i] / place) % 10] - 1] = array[i];
+                count[(array[i] / place) % 10]--;
+            }
+            for (int i = 0; i < size; i++)
+                array[i] = output[i];
+        }
+        // Function to get the largest element from an array
+        int getMax(int array[], int n) {
+            int max = array[0];
+            for (int i = 1; i < n; i++)
+                if (array[i] > max)
+                    max = array[i];
+            return max;
+        }
+        // Main function to implement radix sort
+        void radixSort(int array[], int size) {
+            // Get maximum element
+            int max = getMax(array, size);
+
+            // Apply counting sort to sort elements based on place value.
+            for (int place = 1; max / place > 0; place *= 10)
+                countingSort(array, size, place);
+        }
+        // Driver code
+        public static void main(String args[]) {
+            int[] data = { 121, 432, 564, 23, 1, 45, 788 };
+            int size = data.length;
+            Radix_sort rs = new Radix_sort();
+            rs.radixSort(data, size);
+            System.out.println("Sorted Array in Ascending Order: ");
+            System.out.println(Arrays.toString(data));
+        }
+    }
+   

@@ -1,0 +1,42 @@
+Topic:- Throw keyword
+
+The Java throw keyword is used to throw an exception explicitly. We specify the exception object which is to be thrown. 
+The Exception has some message with it that provides the error description. These exceptions may be related to user inputs, server, etc.
+  
+Briefing out on exception, it is a type of error that a compiler pops out from the program in case of any discrepancy occurred during the run time of the code. 
+By using this throw keyword, we can define our exception by interpreting any cause of errors during the program’s run time.
+
+Syntax
+
+throw exception_type ;
+or
+throw instance;
+
+Program :- Program to check how the keyword is actually used and understand how the flow works.
+Output 1: If b value is not a zero.
+
+          Enter value of A: 
+             42
+          Enter value of B: 
+             6
+          Value of C is: 7
+         Finally block is here
+Output 2: If the b value is zero.
+          Enter value of A: 
+          45
+        Enter value of B: 
+          0
+        Caught this here
+        Finally block is here
+
+Explanation: - 
+Firstly, we imported the Scanner module to take the user input values.
+We read two numbers, namely, ‘A’ and ‘B’, which are given as input to the user.
+We declared a variable ‘C’ to store the value of the quotient after the division of number ‘A’ by ‘B’.
+As the user can randomly give the numbers, we can think of a situation where a user can give the divisor as zero.
+Accepting that scenario, we write our division code in a try block.
+And writing if a condition that in case if ‘B’ value has zero, then we are throwing an Exception.
+Try would always be followed by a catch block.
+So, here we are mentioning the exception that we defined using a new command by keyword throw.
+The same exception is there caught and, we just printed out a statement below to make a clear understanding in attaining the flow of the try, throw, catch and finally.
+And then finally, we are declaring our finally block. As already known, the statements in this block are definitely going to execute.

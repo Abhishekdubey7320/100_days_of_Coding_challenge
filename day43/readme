@@ -23,9 +23,9 @@ Note: We can also create an input stream from other subclasses of InputStream.
 Program: - Try to read file using FileInputStream (a subclass of InputStream).
 Output
 
-Available bytes in the file: 39
-Data read from the file:
-I leanning inputStream class in java.
+Available bytes in the file: 40
+Data read from the file: 
+I am learning inputStream class in java.                                                            
 
 Explanation:-
 In this program, we have created an input stream using the FileInputStream class. The input stream is linked with the file input.txt.
